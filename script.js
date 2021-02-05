@@ -16,7 +16,7 @@ $('form #login').click(function(event) {
 
 async function authenticationUser(username, password) {
 
-    let url = 'https://raw.githubusercontent.com/gleb-1996/test-db/mainxczcx/users.json';
+    let url = 'https://raw.githubusercontent.com/gleb-1996/test-db/main/users.json';
     let coincidences = 0;
     let message;
 
