@@ -1,6 +1,7 @@
 // Реализация с помощью более современных интрументов, как async/await и fetch
 
-$('form #login').click(function() {
+$('form #login').click(function(event) {
+    event.preventDefault();
 
     let username = $('#username').val();
     let password = $('#password').val();
